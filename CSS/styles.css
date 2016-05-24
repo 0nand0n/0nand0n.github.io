@@ -1,0 +1,84 @@
+body{
+	background-image: url("../Assets/cover.png");
+	font-family: 'Montserrat', sans-serif;
+}
+
+#maincontainer{
+	max-width: 1000px;
+	height: 1000px;
+	margin: 30px auto;
+	padding: 10px auto 25px auto;
+}
+
+#outer-wrap{
+	max-width: 1000px;
+	height: 1000px;
+	overflow: auto;
+}
+
+#inner-wrap{
+	float: left;
+	margin-right:-999em; 
+}
+
+.floatbox{
+	float: left; /*force into block level for dimensions*/
+	width: 700px;
+	height: 470px;
+}
+
+.floatbox1{
+float: fixed; 
+	top: 470px;
+    left:-10px;
+    bottom:0px;
+    margin:0;
+}
+
+.image { 
+	display: block;
+   position: relative; 
+   width: 100%;
+}
+
+.sidebar-box {
+  max-height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+.sidebar-box .read-more { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  text-align: center; 
+  margin: 0; padding: 30px 0; 
+  color: white;
+  background-image: linear-gradient(to bottom, transparent, black);
+}
+
+.hovereffect img {
+opacity:0.5;
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+-moz-opacity:0.5;
+-khtml-opacity:0.5;
+}
+.hovereffect:hover img {
+opacity:1.0;
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity:1.0;
+-khtml-opacity:1;
+}
+
+#footer {
+    position:fixed;
+    right:0;
+    top: 470px;
+    left:-10px;
+    bottom:0px;
+    margin:0;
+    width:75%;
+    height:75%;
+    background: no-repeat bottom left;
+    background-size:100%;
+}
